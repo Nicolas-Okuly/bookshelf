@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f5f5f5;
+}
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+.section {
+    margin: 20px 0;
+    padding: 15px;
+    background: #f8f9fa;
+    border-radius: 4px;
+}
+button {
+    padding: 8px 15px;
+    margin: 5px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+}
+button:hover {
+    background-color: #0056b3;
+}
+.remove-btn {
+    background-color: #dc3545;
+}
+.remove-btn:hover {
+    background-color: #c82333;
+}
+input {
+    padding: 8px;
+    margin: 5px;
+    width: 200px;
+}
+#bookList {
+    margin-top: 20px;
+}
+
+.cookieDis {
+    font-size: 0.8em;
+    color: gray;
+}
+.bookItem {
+    display: flex;
+    gap: 10px;
+    margin: 5px;
+    padding: 15px;
+    border-radius: 12px;
+    background-color: #DDD;
+}
+
+@media (max-width: 768px) {
+    .bookItem {
+        flex-direction: column;
+        text-align: center;
+    }
+    .bookItem img {
+        max-width: 128px;
+        margin: 0 auto;
+    }
+}
+
+a,
+a:visited,
+a:hover {
+    text-decoration: none;
+    color: white;
+}
